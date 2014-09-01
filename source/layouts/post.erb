@@ -1,0 +1,10 @@
+<% wrap_layout :layout do %>
+  <div id="wrapper" class="blog">
+    <div class="post">
+      <h2><%= link_to current_article.title, current_article %> <em><%= current_article.date.strftime('%B %d, %Y') %></em></h2>
+      <div class="content">
+        <%= current_article.body %>
+      </div>
+    </div>
+  </div>
+<% end %>

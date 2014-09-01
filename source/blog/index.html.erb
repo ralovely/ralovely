@@ -1,0 +1,23 @@
+---
+title: "blog"
+background_image: "blog-1680.jpg"
+---
+<div id="wrapper" class="blog">
+
+  <% blog.articles[0..0].each do |article| %>
+    <div class="post first">
+      <h2>
+        <%= link_to article.title, article %> <em><%= article.date.strftime('%B %d, %Y') %></em>
+      </h2>
+      <div class="content">
+        <%= article.body %>
+      </div>
+    </div>
+  <% end %>
+
+  <% blog.articles[1...-1].each do |article| %>
+    <div class="post">
+      <h2><%= link_to article.title, article %> <em><%= article.date.strftime('%B %d, %Y') %></em></h2>
+    </div>
+  <% end %>
+</div>
