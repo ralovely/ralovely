@@ -29,6 +29,10 @@ or in a `.s3_sync` file (yaml).
 See [s3_sync README](https://github.com/fredjean/middleman-s3_sync) for more details.
 
 ```
-middleman s3_sync
+# build the static version
+bundle exec middleman build
+
+# Send it to S3
+bundle exec middleman s3_sync
 ```
 
