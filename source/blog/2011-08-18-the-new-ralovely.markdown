@@ -15,7 +15,7 @@ There are a few loose ends, it hasn't even been tested for ie, and one could pro
 
 For the graphic oriented among you:
 * Font is Futura P, thanks to the awesome [Typekit](http://typekit.com) service.
-* Photos are from my collection. The ones on the About ad Blog pages are from our first trip to Japan, and the one on Tackkkle page is... well, muddy.
+* Photos are from my collection, taken on our first trip to Japan.
 
 And for the techies:
 * It's hosted on AWS S3 as a static website.
@@ -24,8 +24,5 @@ And for the techies:
 * ~~It's a Ruby On Rails app. Even if the site is mostly static, we never know...~~
 * ~~The blog is still static Jekyll generated pages.~~
 * Background image resizing is done via [Supersized](http://buildinternet.com/project/supersized/) jQuery plugin
-* Tackkkle punches arrangement is done via [Isotope](http://isotope.metafizzy.co/) jQuery plugin by the so talented [David Desandro](https://twitter.com/#!/desandro)
-
-The Tackkkle page is, of course, a reference to the very exclusive [dribbble](http://dribbble.com), and I like how the nav bar-slash-title bar came out.
 
 I hope you'll enjoy it.

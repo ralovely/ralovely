@@ -1,124 +1,124 @@
 html, body {
-	text-align: center;
-	font-family: "futura-pt-1","futura-pt-2",sans-serif;
-	margin: 0;
-	height: 100%;
+  text-align: center;
+  font-family: "futura-pt-1","futura-pt-2",sans-serif;
+  margin: 0;
+  height: 100%;
 }
 a, a:visited {
-	text-decoration: none;
-	border-bottom: 1px dotted;
-	padding-bottom: 1px;
-	color: #3888e9;
-	-webkit-transition:color 0.266s;
-	   -moz-transition:color 0.266ss;
-		 -o-transition:color 0.266ss;
-			transition:color 0.266ss;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  padding-bottom: 1px;
+  color: #3888e9;
+  -webkit-transition:color 0.266s;
+     -moz-transition:color 0.266ss;
+     -o-transition:color 0.266ss;
+      transition:color 0.266ss;
 }
 a:hover {
-	color: #E3689B;
+  color: #E3689B;
 }
 em {
-	font-style: italic;
+  font-style: italic;
 }
 strong {
-	font-weight: 700;
+  font-weight: 700;
 }
 ul {
-	margin: 0;
+  margin: 0;
 }
 
 
 div.corner {
-	background-image: url('/images/corners-b.png');
-	width: 14px;
-	height: 14px;
-	position: fixed; z-index: 999;
+  background-image: url('/images/corners-b.png');
+  width: 14px;
+  height: 14px;
+  position: fixed; z-index: 999;
 }
 div.corner.tl {
-	top:0;left:0;
-	background-position: 0 0;
+  top:0;left:0;
+  background-position: 0 0;
 }
 div.corner.tr {
-	top:0;right:0;
-	background-position: 14px 0;
+  top:0;right:0;
+  background-position: 14px 0;
 }
 div.corner.bl {
-	bottom:0;left:0;
-	background-position: 0 14px;
+  bottom:0;left:0;
+  background-position: 0 14px;
 }
 div.corner.br {
-	bottom:0;right:0;
-	background-position: 14px 14px;
+  bottom:0;right:0;
+  background-position: 14px 14px;
 }
 
 h2 {
-	font-weight: 500;
-	font-size: 1.3em;
-	margin-top: 5px;
+  font-weight: 500;
+  font-size: 1.3em;
+  margin-top: 5px;
 }
 h2 a {
-	border: none;
+  border: none;
 }
 
 h2 em {
-	font-weight: 300;
-	font-size: 0.8em;
+  font-weight: 300;
+  font-size: 0.8em;
 }
 
 
 
 
 #wrapper{
-	background:#111;
-	background:rgb(0,0,0);
-	background:rgba(0,0,0,0.75);
-	position: absolute; top: 116px; left: 45%; right: 10%;
-	text-align:left;
-	color: #fff;
-	-webkit-border-radius: 10px;
-		 -moz-border-radius: 10px;
-					border-radius: 10px;
-	padding: 10px;
+  background:#111;
+  background:rgb(0,0,0);
+  background:rgba(0,0,0,0.75);
+  position: absolute; top: 116px; left: 45%; right: 10%;
+  text-align:left;
+  color: #fff;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
+  padding: 10px;
 }
 
 /* ###### NAV ####################################################### */
 ul#nav {
-	position: relative;
-	display: block;
-	width: 400px;
-	margin: 0 auto;
-	margin-top: 30px;
-	background:#111;
-	background:rgb(0,0,0);
-	background:rgba(0,0,0,0.75);
-	color: #fff;
-	-webkit-border-radius: 10px;
-		 -moz-border-radius: 10px;
-					border-radius: 10px;
-	padding: 10px;
-	list-style-type: none;
-	font-weight: bold;
+  position: relative;
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background:#111;
+  background:rgb(0,0,0);
+  background:rgba(0,0,0,0.75);
+  color: #fff;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
+  padding: 10px;
+  list-style-type: none;
+  font-weight: bold;
 }
 ul#nav li {
-	display: inline;
+  display: inline;
 }
 ul#nav li a, ul#nav li a:active, ul#nav li a:visited {
-	border: none;
-	color: #fff;
-	text-shadow: #000 2px 2px 2px;
-	filter: dropshadow(color=#000, offx=3, offy=2);
-	padding: 10px;
-	margin-left: 0px;
-	margin-right: 0px;
-	font-size: 1em;
-	-webkit-transition:font-size 0.266s;
-		 -moz-transition:font-size 0.266ss;
-			 -o-transition:font-size 0.266ss;
-				  transition:font-size 0.266ss;
+  border: none;
+  color: #fff;
+  text-shadow: #000 2px 2px 2px;
+  filter: dropshadow(color=#000, offx=3, offy=2);
+  padding: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 1em;
+  -webkit-transition:font-size 0.266s;
+     -moz-transition:font-size 0.266ss;
+       -o-transition:font-size 0.266ss;
+          transition:font-size 0.266ss;
 }
 ul#nav li a:hover {
-	font-size: 2.6em;
-	color: #ff8ec2;
+  font-size: 2.6em;
+  color: #ff8ec2;
 }
 ul#nav li:first-child a:hover {
 }
@@ -127,29 +127,29 @@ ul#nav li:nth-child(n+2) a:hover {
 ul#nav li:last-child a:hover {
 }
 ul#nav li.current a {
-	font-size: 2.6em;
-	color: #ff8ec2;
+  font-size: 2.6em;
+  color: #ff8ec2;
 }
 
 
 /* ###### ABOUT ####################################################### */
 
 body.index #wrapper {
-	padding: 0 20px 20px 20px;
-	background:rgba(0,0,0,0.75);
-	text-shadow: #000 2px 1px 1px;
-	min-width: 420px;
+  padding: 0 20px 20px 20px;
+  background:rgba(0,0,0,0.75);
+  text-shadow: #000 2px 1px 1px;
+  min-width: 420px;
 }
 body.index #wrapper h2 {
-	margin-top: 20px;
-	color: #ff8ec2;
+  margin-top: 20px;
+  color: #ff8ec2;
 }
 body.index #wrapper p {
-	padding-left: 30px;
-	padding-right: 20px;
-	margin-bottom: 8px;
-	line-height: 1.4em;
-	font-size: 1.1em;
+  padding-left: 30px;
+  padding-right: 20px;
+  margin-bottom: 8px;
+  line-height: 1.4em;
+  font-size: 1.1em;
 }
 
 
@@ -159,206 +159,86 @@ body.index #wrapper p {
 
 
 body.blog #wrapper {
-	background:#eee;
-	background:rgb(255,255,255);
-	background:rgba(255,255,255,0.85);
-	color: #000;
-	position: absolute; top: 116px; left: 38%; right: 4%;
-	min-width: 410px;
+  background:#eee;
+  background:rgb(255,255,255);
+  background:rgba(255,255,255,0.85);
+  color: #000;
+  position: absolute; top: 116px; left: 38%; right: 4%;
+  min-width: 410px;
 }
 body.blog ul#nav {
-	background:#eee;
-	background:rgb(255,255,255);
-	background:rgba(255,255,255,0.75);
-	color: #000;
+  background:#eee;
+  background:rgb(255,255,255);
+  background:rgba(255,255,255,0.75);
+  color: #000;
 }
 body.blog ul#nav li a, body.blog ul#nav li a:active, body.blog ul#nav li a:visited {
-	color: #000;
-	text-shadow: #ccc 2px 2px 2px;
-	filter: dropshadow(color=#ccc, offx=3, offy=2);
+  color: #000;
+  text-shadow: #ccc 2px 2px 2px;
+  filter: dropshadow(color=#ccc, offx=3, offy=2);
 }
 body.blog ul#nav li a:hover {
-	color: #de3a21;
+  color: #de3a21;
 }
 body.blog ul#nav li.current a {
-	color: #de3a21;
+  color: #de3a21;
 }
 body.blog a, body.blog a:visited {
-	color: #3888e9;
+  color: #3888e9;
 }
 body.blog a:hover {
-	color: #de3a21;
+  color: #de3a21;
 }
 
 
 
 body.blog div.post {
-	color: #333;
+  color: #333;
 }
 body.blog div.post.first {
-	margin-bottom: 60px;
-	}
+  margin-bottom: 60px;
+  }
 
 body.blog div.post h2 {
-	padding-left: 40px;
-	margin-bottom: 20px;
+  padding-left: 40px;
+  margin-bottom: 20px;
 }
 body.blog h2 em {
-	display: inline-block;
+  display: inline-block;
 }
 
 body.blog div.post div.content {
-	text-align: left;
-	padding-left: 60px;
-	padding-right: 30px;
-	font-weight: 400;
-	font-size: 1.1em;
-	line-height: 1.5em;
+  text-align: left;
+  padding-left: 60px;
+  padding-right: 30px;
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.5em;
 }
 body.blog div.post div.content p {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 body.blog div.post ul, body.blog div.post ol {
-	margin-top: 0px;
-	margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 body.blog div.post div.content em {
-	color: #000;
-	font-weight: 300;
-	font-size: 1.1em;
+  color: #000;
+  font-weight: 300;
+  font-size: 1.1em;
 }
 body.blog div.post div.content .comment {
-	color: #999;
-	font-style: italic;
+  color: #999;
+  font-style: italic;
 }
 body.blog div.post div.content div.comment {
-	padding-left: 30px;
-	padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
 }
 
-
-
-/* ###### TACKKKLE ####################################################### */
-
-/* Start: Recommended Isotope styles */
-/**** Isotope Filtering ****/
-.isotope-item {
-	z-index: 2;
+body.blog blockquote {
+  margin-left: 20px;
+  padding-left: 10px;
+  border-left: 2px solid #ff8ec2;
+  font-style: italic;
 }
-.isotope-hidden.isotope-item {
-	pointer-events: none;
-	z-index: 1;
-}
-/**** Isotope CSS3 transitions ****/
-.isotope,
-.isotope .isotope-item {
-	-webkit-transition-duration: 0.8s;
-	   -moz-transition-duration: 0.8s;
-	        transition-duration: 0.8s;
-}
-.isotope {
-	-webkit-transition-property: height, width;
-	   -moz-transition-property: height, width;
-	        transition-property: height, width;
-}
-.isotope .isotope-item {
-	-webkit-transition-property: -webkit-transform, opacity;
-	   -moz-transition-property:    -moz-transform, opacity;
-	        transition-property:         transform, opacity;
-}
-/**** disabling Isotope CSS3 transitions ****/
-.isotope.no-transition,
-.isotope.no-transition .isotope-item,
-.isotope .isotope-item.no-transition {
-	-webkit-transition-duration: 0s;
-	   -moz-transition-duration: 0s;
-	        transition-duration: 0s;
-}
-/* End: Recommended Isotope styles */
-
-body.tackkkle {}
-
-body.tackkkle ul#nav {
-	background:#eee;
-	background:rgb(255,255,255);
-	background:rgba(255,255,255,0.75);
-	color: #000;
-}
-body.tackkkle ul#nav li a, body.tackkkle ul#nav li a:active, body.tackkkle ul#nav li a:visited {
-	color: #000;
-	text-shadow: #ccc 2px 2px 2px;
-	filter: dropshadow(color=#ccc, offx=3, offy=2);
-}
-body.tackkkle ul#nav li a:hover {
-	color: #5a3da9;
-}
-body.tackkkle ul#nav li.current a {
-	color: #5a3da9;
-}
-
-body.tackkkle #wrapper {
-	background:none;
-	color: #000;
-	position: absolute; top: 116px; left: 35%; right: 2%;
-	min-width: 615px;
-}
-body.tackkkle #wrapper div#intro {
-	text-align: center;
-	font-size: 1.2em;
-	margin-bottom: 20px;
-	background:#eee;
-	background:rgb(255,255,255);
-	background:rgba(255,255,255,0.75);
-	color: #000;
-	-webkit-border-radius: 10px;
-		 -moz-border-radius: 10px;
-					border-radius: 10px;
-	padding: 10px;
-}
-body.tackkkle #wrapper div#intro span {
-	font-style: italic;
-	color: #666;
-}
-
-body.tackkkle #wrapper ul#punches {
-	list-style-type: none;
-	margin: 0 auto;
-}
-body.tackkkle #wrapper li.punch {
-	float: left;
-	width: 195px;
-	height: 145px;
-	margin: 5px;
-	-webkit-box-shadow: 2px 2px 6px #333;
-	   -moz-box-shadow: 2px 2px 6px #333;
-	        box-shadow: 2px 2px 6px #333;
-}
-body.tackkkle #wrapper li.punch img {
-	width: 195px;
-	-webkit-border-radius: 5px;
-		 -moz-border-radius: 5px;
-					border-radius: 5px;
-}
-
-body.tackkkle #wrapper li.punch.large {
-	width: 400px;
-	height: 300px;
-}
-body.tackkkle #wrapper li.punch.large img {
-	width: 400px;
-	height: 300px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
